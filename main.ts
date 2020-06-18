@@ -40,7 +40,7 @@ c b d d d d d 5 5 5 5 5 5 5 b .
 . . c b d d d d d 5 5 5 b b . . 
 . . . c c c c c c c c b b . . . 
 `, SpriteKind.Player)
-mySprite.setFlag(SpriteFlag.BounceOnWall, false)
+mySprite.setFlag(SpriteFlag.BounceOnWall, true)
 controller.moveSprite(mySprite)
 class Stuff {
 }
