@@ -61,5 +61,5 @@ game.onUpdateInterval(500, function () {
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
 `, -50, 0)
-    projectile2.y = Math.randomRange(0, 120)
+    projectile2.y = randint(0, 120)
 })
