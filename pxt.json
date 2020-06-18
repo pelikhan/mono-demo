@@ -2,7 +2,8 @@
     "name": "pldi demo",
     "description": "",
     "dependencies": {
-        "device": "*"
+        "device": "*",
+        "controller": "*"
     },
     "files": [
         "main.blocks",

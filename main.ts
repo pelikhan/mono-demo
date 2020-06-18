@@ -16,11 +16,11 @@ c e e 2 2 2 3 2 2 2 2 2 2 4 2 e
 . . 2 e e 2 2 2 2 2 4 4 2 e . . 
 . . . 2 2 e e 4 4 4 2 e e . . . 
 . . . . . 2 2 e e e e . . . . . 
-`, mySprite, 50, 100)
+`, mySprite, 0, 100)
 })
-let projectile2: Sprite = null
 let projectile: Sprite = null
 let mySprite: Sprite = null
+let projectile2: Sprite = null
 scene.setBackgroundColor(8)
 mySprite = sprites.create(img`
 . . . . . . . . . . . . . . . . 
@@ -40,8 +40,10 @@ c b d d d d d 5 5 5 5 5 5 5 b .
 . . c b d d d d d 5 5 5 b b . . 
 . . . c c c c c c c c b b . . . 
 `, SpriteKind.Player)
-mySprite.setFlag(SpriteFlag.BounceOnWall, true)
+mySprite.setFlag(SpriteFlag.BounceOnWall, false)
 controller.moveSprite(mySprite)
+class Stuff {
+}
 game.onUpdateInterval(500, function () {
     projectile2 = sprites.createProjectileFromSide(img`
 . . . . . . . . . . . . . . . . 
@@ -62,4 +64,5 @@ game.onUpdateInterval(500, function () {
 . . . . . . . . . . . . . . . . 
 `, -50, 0)
     projectile2.y = randint(0, 120)
+    console.log(`y: ${projectile2.y}`)
 })
