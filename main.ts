@@ -21,7 +21,6 @@ c e e 2 2 2 3 2 2 2 2 2 2 4 2 e
 let projectile: Sprite = null
 let mySprite: Sprite = null
 let projectile2: Sprite = null
-scene.setBackgroundColor(10)
 mySprite = sprites.create(img`
 . . . . . . . . . . . . . . . . 
 . . 7 . . . . . . . b 5 b . . . 
