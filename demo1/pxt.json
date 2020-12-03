@@ -1,0 +1,19 @@
+{
+    "name": "demo2",
+    "version": "0.0.1",
+    "description": "",
+    "dependencies": {
+    },
+    "files": [
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "arcade",
+        "maker"
+    ],
+    "preferredEditor": "tsprj"
+}

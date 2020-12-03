@@ -1,11 +1,8 @@
 {
-    "name": "pldi demo",
+    "name": "demo2",
     "version": "0.0.1",
     "description": "",
     "dependencies": {
-        "device": "*",
-        "controller": "*",
-        "arcade-sprite-data": "github:microsoft/arcade-sprite-data#v0.0.5"
     },
     "files": [
         "main.blocks",
@@ -16,7 +13,8 @@
         "test.ts"
     ],
     "supportedTargets": [
-        "arcade"
+        "arcade",
+        "maker"
     ],
     "preferredEditor": "tsprj"
 }
