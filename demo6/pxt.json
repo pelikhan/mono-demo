@@ -18,5 +18,5 @@
     "supportedTargets": [
         "maker"
     ],
-    "preferredEditor": "blocksprj"
+    "preferredEditor": "tsprj"
 }
