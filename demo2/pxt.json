@@ -2,8 +2,7 @@
     "name": "demo2",
     "version": "0.0.1",
     "description": "",
-    "dependencies": {
-    },
+    "dependencies": {},
     "files": [
         "main.ts",
         "README.md"
@@ -11,6 +10,10 @@
     "testFiles": [
         "test.ts"
     ],
+    "targetVersions": {
+        "target": "0.13.67",
+        "targetId": "maker"
+    },
     "supportedTargets": [
         "arcade",
         "maker"
