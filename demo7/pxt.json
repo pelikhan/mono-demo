@@ -1,8 +1,9 @@
 {
     "name": "demo7",
+    "version": "0.1.3",
     "dependencies": {
         "adafruit-metro-m0-express": "*",
-        "demo6": "github:pelikhan/mono-demo/demo6#v0.1.2"
+        "demo6": "github:pelikhan/mono-demo/demo7#0.1.3"
     },
     "files": [
         "main.blocks",
