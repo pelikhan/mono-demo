@@ -1,4 +1,5 @@
 {
-   "name": "mono repo demoes",
-   "files": []
+    "name": "demos",
+    "dependencies": {},
+    "files": []
 }
