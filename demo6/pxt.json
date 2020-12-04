@@ -1,5 +1,6 @@
 {
     "name": "demo6",
+    "version": "0.1.2",
     "dependencies": {
         "adafruit-metro-m0-express": "*"
     },
