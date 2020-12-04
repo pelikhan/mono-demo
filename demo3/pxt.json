@@ -1,0 +1,22 @@
+{
+    "name": "demo3",
+    "dependencies": {
+        "adafruit-metro-m0-express": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "0.13.67",
+        "targetId": "maker"
+    },
+    "supportedTargets": [
+        "maker"
+    ],
+    "preferredEditor": "blocksprj"
+}
