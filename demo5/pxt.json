@@ -1,7 +1,8 @@
 {
     "name": "demo5",
     "dependencies": {
-        "adafruit-metro-m0-express": "*"
+        "adafruit-metro-m0-express": "*",
+        "demo1": "github:pelikhan/mono-demo/demo1#v0.1.4"
     },
     "files": [
         "main.blocks",
@@ -18,5 +19,5 @@
     "supportedTargets": [
         "maker"
     ],
-    "preferredEditor": "blocksprj"
+    "preferredEditor": "tsprj"
 }
